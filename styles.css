@@ -112,20 +112,16 @@ footer h2 {
     margin-bottom: 15px;
 }
 
-footer p {
-    margin: 8px 0;
-}
-
 .footer-item {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
+    margin: 8px 0;
 }
 
-.footer-item img {
-    width: 18px;
-    height: 18px;
+.footer-item i {
+    font-size: 18px;
 }
 
 footer a {
