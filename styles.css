@@ -15,7 +15,6 @@ nav {
     text-align: center;
     position: sticky;
     top: 0;
-    z-index: 1000;
 }
 
 nav a {
@@ -23,11 +22,6 @@ nav a {
     margin: 0 15px;
     text-decoration: none;
     font-weight: bold;
-    transition: 0.3s;
-}
-
-nav a:hover {
-    color: #b6b4ff;
 }
 
 header {
@@ -49,11 +43,6 @@ section {
     padding: 25px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-    transition: 0.3s;
-}
-
-section:hover {
-    transform: translateY(-2px);
 }
 
 h2 {
@@ -70,12 +59,6 @@ h2 {
     padding: 8px 14px;
     border-radius: 20px;
     font-size: 14px;
-    transition: 0.3s;
-}
-
-.tags span:hover {
-    background: #5b57c9;
-    transform: scale(1.05);
 }
 
 .cards {
@@ -95,7 +78,7 @@ h2 {
 }
 
 .card:hover {
-    transform: translateY(-6px);
+    transform: translateY(-5px);
 }
 
 .card img {
@@ -105,13 +88,12 @@ h2 {
 }
 
 .card h3 {
-    margin: 12px 12px 6px 12px;
+    margin: 10px;
 }
 
 .card p {
-    margin: 0 12px 15px 12px;
+    margin: 10px;
     font-size: 14px;
-    color: #333;
 }
 
 footer {
@@ -128,38 +110,16 @@ footer {
 }
 
 footer h2 {
-    border-left: 5px solid white;
-    padding-left: 10px;
+    border-left: none;
+    padding-left: 0;
     margin-bottom: 15px;
 }
 
 footer p {
-    margin: 8px 0;
-    font-size: 15px;
+    margin: 5px 0;
 }
 
 footer a {
     color: white;
     text-decoration: underline;
-}
-
-@media (max-width: 600px) {
-    nav {
-        padding: 10px;
-    }
-
-    nav a {
-        display: inline-block;
-        margin: 8px;
-        font-size: 14px;
-    }
-
-    .footer-contenido {
-        text-align: center;
-    }
-
-    footer h2 {
-        border-left: none;
-        padding-left: 0;
-    }
 }
