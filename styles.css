@@ -1,0 +1,50 @@
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+nav {
+    background: black;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+header {
+    text-align: center;
+    padding: 40px;
+    background: #f4f4f4;
+}
+
+section {
+    padding: 20px;
+}
+
+.tags span {
+    display: inline-block;
+    background: #ddd;
+    margin: 5px;
+    padding: 8px 12px;
+    border-radius: 20px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.card img {
+    width: 100%;
+}
