@@ -94,3 +94,24 @@ h2 {
 #contacto {
     text-align: center;
 }
+
+footer {
+    background: linear-gradient(135deg, #2c2c54, #706fd3);
+    color: white;
+    padding: 40px 20px;
+    margin-top: 40px;
+}
+
+.footer-contenido {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+footer h2 {
+    margin-bottom: 15px;
+}
+
+footer p {
+    margin: 5px 0;
+}
