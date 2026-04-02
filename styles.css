@@ -105,9 +105,16 @@ footer {
 }
 
 footer h2 {
+    border-left: none;
+    padding-left: 0;
     margin-bottom: 15px;
 }
 
 footer p {
     margin: 5px 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
 }
