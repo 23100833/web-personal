@@ -27,6 +27,10 @@ nav a {
 header {
     text-align: center;
     padding: 60px 20px;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("esan2.png");
     background-size: cover;
     background-position: center;
@@ -125,4 +129,11 @@ footer p {
 footer a {
     color: white;
     text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    header {
+        min-height: 250px;
+        padding: 40px 15px;
+    }
 }
