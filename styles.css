@@ -91,15 +91,11 @@ h2 {
     font-size: 14px;
 }
 
-#contacto {
-    text-align: center;
-}
-
 footer {
     background: linear-gradient(135deg, #2c2c54, #706fd3);
     color: white;
-    padding: 40px 20px;
-    margin-top: 40px;
+    padding: 50px 20px;
+    margin-top: 50px;
 }
 
 .footer-contenido {
