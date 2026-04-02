@@ -27,7 +27,10 @@ nav a {
 header {
     text-align: center;
     padding: 60px 20px;
-    background: linear-gradient(135deg, #2c2c54, #706fd3);
+    background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: white;
 }
 
