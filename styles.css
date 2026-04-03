@@ -40,6 +40,7 @@ header {
     padding: 80px 20px;
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("assets/esan2.png");
     background-size: cover;
+    background-position: center;
     color: white;
 }
 
@@ -93,12 +94,18 @@ h2 {
     padding-left: 10px;
 }
 
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
 .tags span {
     background: #706fd3;
     color: white;
-    margin: 5px;
     padding: 8px 14px;
     border-radius: 20px;
+    font-size: 14px;
 }
 
 .cards {
@@ -114,16 +121,32 @@ h2 {
     overflow: hidden;
     box-shadow: 0 6px 15px rgba(0,0,0,0.1);
     transition: 0.3s;
+    background: white;
+    display: flex;
+    flex-direction: column;
 }
 
 .card:hover {
     transform: translateY(-8px);
 }
 
+.card h3,
+.card p,
+.card .btn {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.card .btn {
+    margin-bottom: 10px;
+}
+
 .card img {
     width: 100%;
     height: 180px;
-    object-fit: cover;
+    object-fit: contain;
+    background: #f4f6fb;
+    padding: 10px;
 }
 
 footer {
@@ -186,6 +209,10 @@ footer a {
     .cards {
         flex-direction: column;
         align-items: center;
+    }
+
+    .card {
+        width: 90%;
     }
 
     header h1 {
