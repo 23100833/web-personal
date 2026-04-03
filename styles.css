@@ -159,15 +159,28 @@ footer a {
     .menu-toggle {
         display: block;
         text-align: right;
+        padding-right: 20px;
     }
 
     .nav-links {
         display: none;
         flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links a { 
+        display: block; 
+        padding: 10px; 
+        margin: 5px 0; 
     }
 
     .nav-links.active {
         display: flex;
+    }
+
+    header { 
+        min-height: 250px; 
+        padding: 40px 15px; 
     }
 
     .cards {
@@ -177,5 +190,9 @@ footer a {
 
     header h1 {
         font-size: 32px;
+    }
+
+    header p { 
+        font-size: 16px; 
     }
 }
