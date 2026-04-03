@@ -79,7 +79,7 @@ section {
     transform: translateY(30px);
     transition: 0.5s;
     
-    scroll-margin-top: 100px;
+    scroll-margin-top: 50px;
 }
 
 section.visible {
